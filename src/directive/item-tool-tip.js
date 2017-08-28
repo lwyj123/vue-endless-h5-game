@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import CONSTANT from '../data/constant'
-import PGET from '../js/public-static-get'
+import PGET from 'utils/public-static-get'
 
-require('../css/item-tool-tip.css');
+require('css/item-tool-tip.css');
 
 export default function(el, binding){
   let keyName = CONSTANT.UNIT_ATTR_NAME,
@@ -12,7 +12,7 @@ export default function(el, binding){
       
   let event = {
     mouseenter :  function(e){
-
+      // remove older tooltip
       event.mouseleave();
 
       let tip = document.createElement('div');

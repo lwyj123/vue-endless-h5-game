@@ -1,5 +1,5 @@
 import coolTimeEvent from './cool-time-event'
-import Fight from '../js/fight'
+import Fight from 'utils/fight'
 import store from '../store'
 
 const SkillEvent = function(hero, monster){

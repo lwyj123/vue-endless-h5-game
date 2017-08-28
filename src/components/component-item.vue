@@ -1,3 +1,6 @@
+<!--
+component for square item
+-->
 <template>
   <div v-item-tool-tip="item" v-drop-item="dropData" class="component-item">
     <div :style="{'color':gradeColor[item.grade || 0]}" v-if="item">
@@ -20,9 +23,9 @@
 </template>
 
 <script>
-import CONSTANT from '../data/constant'
-import ItemToolTip from '../directive/item-tool-tip'
-import DropItem from '../directive/drop-item'
+import CONSTANT from 'data/constant'
+import ItemToolTip from 'directive/item-tool-tip'
+import DropItem from 'directive/drop-item'
 
 export default {
   directives :{

@@ -48,9 +48,9 @@
 </template>
 
 <script>
-import BluePrint from '../js/blueprint';
-import PGET from '../js/public-static-get'
-import { GetRange, GetRandom } from '../js/public-random-range';
+import BluePrint from 'utils/blueprint';
+import PGET from 'utils/public-static-get'
+import { GetRange, GetRandom } from 'utils/public-random-range';
 
 export default {
   data(){

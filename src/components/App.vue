@@ -14,7 +14,7 @@
 
 <script>
 import {login} from '../api/login'
-import {LoadGame} from "../js/save-load"
+import {LoadGame} from "utils/save-load"
 
 export default {
   data(){

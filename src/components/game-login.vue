@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import {LoadGame} from "../js/save-load"
+import {LoadGame} from "utils/save-load"
 
 export default {
   data(){

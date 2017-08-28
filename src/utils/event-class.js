@@ -1,5 +1,5 @@
-import Unit from '../js/unit-class';
-import PGET from '../js/public-static-get';
+import Unit from 'utils/unit-class';
+import PGET from 'utils/public-static-get';
 import store from '../store';
 import Vue from 'vue';
 

@@ -6,7 +6,7 @@
 
 <script>
 
-import GameAudio from '../js/audio'
+import GameAudio from 'utils/audio'
 export default {
   created(){
 

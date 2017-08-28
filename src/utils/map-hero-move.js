@@ -1,5 +1,5 @@
 import CONSTANT from '../data/constant';
-import { MapDialog, MapFight } from '../js/event-class';
+import { MapDialog, MapFight } from 'utils/event-class';
 
 const HeroMoveEvent = function(map, $VueScope){
   let key_up    = 38,

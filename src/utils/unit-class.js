@@ -6,7 +6,7 @@ import store from '../store';
 import CreateMonster from './create-monster';
 import CreateHero from './create-hero';
 import { GetRange, GetRandom } from './public-random-range';
-import PGET from '../js/public-static-get';
+import PGET from 'utils/public-static-get';
 import coolTimeEvent from './cool-time-event';
 import Vue from 'vue';
 

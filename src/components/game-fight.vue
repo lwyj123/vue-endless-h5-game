@@ -35,8 +35,8 @@
 </template>
 
 <script>
-  import SkillEvent from '../js/release-skill'
-  import MonsterAI from '../js/monster-ai'
+  import SkillEvent from 'utils/release-skill'
+  import MonsterAI from 'utils/monster-ai'
   import GameFightEventLog from './game-fight-event-log.vue'
   import GameFightUnitInfo from './game-fight-unit-info.vue'
   import GameFightDropList from './game-fight-drop-list.vue'

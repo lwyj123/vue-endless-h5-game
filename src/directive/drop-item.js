@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import CONSTANT from '../data/constant'
-import PGET from '../js/public-static-get'
+import PGET from 'utils/public-static-get'
 import store from '../store';
-import dragDrop from '../js/drag-drop';
-import moveClass from '../js/different-item-move-class'
+import dragDrop from 'utils/drag-drop';
+import moveClass from 'utils/different-item-move-class'
 
 export default function (el, binding){
 
@@ -25,6 +25,7 @@ export default function (el, binding){
       } catch (error) {
         // pass
       }
+      // remove tooltip
       let itemPover = document.querySelector('.item-tool-tip-pover');
       itemPover && itemPover.parentNode.removeChild(itemPover);
     },

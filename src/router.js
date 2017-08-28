@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import VueRouter from "vue-router";
 
-import GameHome from './components/game-home.vue'
-import GameFight from './components/game-fight.vue'
-import GameMap from './components/game-map.vue'
-import GameMapActive from './components/game-map-active.vue'
+import GameHome from 'views/gameHome/index.vue'
+import GameFight from 'components/game-fight.vue'
+import GameMap from 'views/gameMap/game-map.vue'
+import GameMapActive from 'views/gameMap/game-map-active.vue'
 import GameLogin from './components/game-login.vue'
 import GameConfig from './components/game-config.vue'
 import GameSmithy from './components/game-smithy.vue'

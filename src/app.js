@@ -7,7 +7,7 @@ require("normalize.css");
 // require('babel-polyfill');
 
 // public js
-import public_function from './js/public-function.js';
+import public_function from 'utils/public-function.js';
 
 import Vue from 'vue'
 import Vuex from 'vuex'

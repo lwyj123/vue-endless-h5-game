@@ -1,4 +1,4 @@
-import moveClass from '../js/different-item-move-class'
+import moveClass from 'utils/different-item-move-class'
 
 const noting = function(from, to){
   if(from.position === to.position && from.index === to.index){

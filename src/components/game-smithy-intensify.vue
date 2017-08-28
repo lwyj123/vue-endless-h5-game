@@ -15,9 +15,9 @@
 </template>
 
 <script>
-import Intensify from '../js/intensify';
-import { GetRange, GetRandom } from '../js/public-random-range';
-import GameAudio from '../js/audio'
+import Intensify from 'utils/intensify';
+import { GetRange, GetRandom } from 'utils/public-random-range';
+import GameAudio from 'utils/audio'
 
 export default {
   data(){

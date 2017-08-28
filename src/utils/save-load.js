@@ -1,10 +1,10 @@
-import Unit from '../js/unit-class'
+import Unit from 'utils/unit-class'
 import MAP_TABLE from '../data/map-data'
 import MONSTER_DATA from '../data/monster-data';
 import SKILL_TABLE from "../data/skill-data";
 import STATE_TABLE from "../data/state-data";
 import {ITEM_TABLE} from '../data/item-data';
-import PGET from '../js/public-static-get';
+import PGET from 'utils/public-static-get';
 import store from '../store';
 import Vue from 'vue';
 

@@ -48,7 +48,7 @@
 import GameSwitchButton from './game-switch-button.vue';
 import GameRangeSelect from './game-range-select.vue';
 import GameHotKeyItem from './game-hot-key-item.vue';
-import {SaveGame,LoadGame} from "../js/save-load"
+import {SaveGame,LoadGame} from "utils/save-load"
 
 export default {
   components:{

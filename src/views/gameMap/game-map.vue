@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import MapInit from '../js/map-init';
+import MapInit from 'utils/map-init';
 
 export default {
   data () {

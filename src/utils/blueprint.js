@@ -1,5 +1,5 @@
 import store from '../store'
-import PGET from '../js/public-static-get';
+import PGET from 'utils/public-static-get';
 
 const BluePrint = function(opt){
   let hero = store.state.HeroStore.hero;

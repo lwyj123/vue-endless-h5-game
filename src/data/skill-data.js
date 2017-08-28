@@ -1,4 +1,4 @@
-import { GetRange, GetRandom } from '../js/public-random-range';
+import { GetRange, GetRandom } from 'utils/public-random-range';
 
 const SKILL_TABLE = [
   {

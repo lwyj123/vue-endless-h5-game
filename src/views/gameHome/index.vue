@@ -12,9 +12,9 @@
 </template>
 
 <script>
-import Menu from './game-home-menu.vue'
-import Info from './game-home-info.vue'
-import GameAudio from '../js/audio'
+import Menu from 'components/Menu/game-home-menu.vue'
+import Info from 'components/Info/game-home-info.vue'
+import GameAudio from 'utils/audio'
 export default {
   components :{
     'game-home-menu' : Menu,

@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import CONSTANT from '../data/constant';
+  import CONSTANT from 'data/constant';
   export default {
     props :[
       'block',

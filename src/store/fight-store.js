@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import Unit from '../js/unit-class'
+import Unit from 'utils/unit-class'
 import MONSTER_DATA from '../data/monster-data';
 
 const state = {

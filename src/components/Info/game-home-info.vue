@@ -3,7 +3,7 @@
     <div class="right-info-left">
       <div class="main">
         <div class="logo">
-          <img :src="require('static/hero-1.png')"/>
+          <img :src="require('assets/hero-1.png')"/>
           <div class="level">99</div>
         </div>
         <div class="name">Bastarder</div>
@@ -27,7 +27,7 @@
         <div class="atk color-red">{{hero.$r.$atk}}</div>
       </div>
       <div class="right">
-        <div :class="['attr', i > 5 ? 'last' : '']" v-for="(key,i) in this.infoKeyList">
+        <div :class="['attr']" v-for="(key,i) in this.infoKeyList">
           <span class="name">{{key | heroAttrKey}}</span>
           <span class="value">{{hero.$r[key].toFixed(1)}}</span>
         </div>
@@ -183,9 +183,6 @@ export default {
             padding-left: 4px;
             color: #9f86ff;
           }
-        }
-        .attr.last{
-          margin-bottom: 0px;
         }
       }
     }

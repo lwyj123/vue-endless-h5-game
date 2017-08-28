@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import PGET from './js/public-static-get';
+import PGET from 'utils/public-static-get';
 import CONSTANT from './data/constant';
 
 Vue.filter('itemKey', function (id, key) {
